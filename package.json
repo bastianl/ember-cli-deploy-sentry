@@ -59,6 +59,7 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
+    "before": "ember-cli-deploy-gzip",
     "after": "ember-cli-deploy-revision-data"
   }
 }
